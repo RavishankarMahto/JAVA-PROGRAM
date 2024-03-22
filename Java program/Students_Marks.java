@@ -8,18 +8,24 @@ public class Students_Marks{
         Scanner sc = new Scanner(System.in);
         marks = sc.nextInt();
 
-        if(marks=60 && marks<=80) {
-           System.out.println("YOu passed first division of marks");
+        if(marks>=90 && marks<=100) {
+           System.out.println("You are board topper");
            
         }
-        else if{
+        else if(marks>=70 && marks<=89){
+            System.out.println("You are district topper");
 
         }
-        else if{
+        else if(marks>=60 && marks<=69){
+            System.out.println("First division");
 
         }
-        else if{
+        else if(marks>=30 && marks<=59){
+            System.out.println("Second division");
 
+        }
+        else{
+            System.out.println("You are fail");
         }
 
     }
